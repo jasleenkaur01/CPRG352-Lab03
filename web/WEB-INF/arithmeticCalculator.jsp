@@ -24,8 +24,9 @@
             <input type="submit" name="operation" value="-">
             <input type="submit" name="operation" value="*">
             <input type="submit" name="operation" value="%">
+            <br>
+            <label>Result: ${result}</label>
         </form>
-            <p>Result: ${result}</p>
-            <a href="ageCalculator.jsp">Age Calculator</a>
+            <a href="http://localhost:8084/Calculators/age">Age Calculator</a>
     </body>
 </html>

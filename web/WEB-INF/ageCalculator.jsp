@@ -18,8 +18,9 @@
             <input type="text" name="enter_your_age" value="${age}">
             <br>
             <input type="submit" name="calculate_age" value="Age next birthday">
+            <br>
+            <label>$(result)</label>
         </form>
-            <p>$(result)</p>
-            <a href="arithmeticCalculator.jsp">Arithmetic Calculator</a>
+            <a href="http://localhost:8084/Calculators/arithmetic">Arithmetic Calculator</a>
     </body>
 </html>
